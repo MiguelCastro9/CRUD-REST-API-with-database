@@ -4,6 +4,7 @@ import java.io.Serializable;
 import javax.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  *
@@ -12,6 +13,7 @@ import lombok.Data;
 @Entity
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 @Table(name = "pessoas")
 public class PessoaModel implements Serializable {
 
