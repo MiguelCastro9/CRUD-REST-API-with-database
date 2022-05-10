@@ -13,36 +13,36 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class PessoaService {
-    
+
     @Autowired
     PessoaRepository pessoaRepository;
-    
+
     public PessoaModel inserir(PessoaModel pessoaModel) {
-        
+
         return pessoaRepository.save(pessoaModel);
     }
-    
+
     public PessoaModel alterar(Long id, PessoaModel pessoaModel) {
-        
+
         PessoaModel pm = pessoaRepository.findById(id).get();
         pm.setNome(pessoaModel.getNome());
         pm.setEmail(pessoaModel.getEmail());
         
         return pessoaRepository.save(pm);
     }
-    
+
     public List<PessoaModel> listar() {
-        
+
         return pessoaRepository.findAll();
     }
-    
+
     public Optional<PessoaModel> buscar(Long id) {
-        
+
         return pessoaRepository.findById(id);
     }
-    
-    public void excluir(Long id) {
-        
+
+    public void deletar(Long id) {
+
         pessoaRepository.deleteById(id);
     }
 }
