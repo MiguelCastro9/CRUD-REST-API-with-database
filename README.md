@@ -15,4 +15,4 @@ A CRUD system with database persistence using the REST API architecture and the 
 ![image](https://user-images.githubusercontent.com/56695817/167724705-ad2026df-b2c0-4f56-a1ca-e40d32d56315.png)
 
 #### RequestMethod.DELETE
-![image](https://user-images.githubusercontent.com/56695817/167724822-2674aaff-a899-48f2-9092-3ddd3cbdefae.png)
+![image](https://user-images.githubusercontent.com/56695817/168500722-95ef26a2-f022-4932-8c92-2c5176856832.png)
