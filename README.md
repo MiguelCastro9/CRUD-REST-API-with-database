@@ -1,6 +1,6 @@
 # Overview
 
-A CRUD system with database persistence using the REST API architecture and the main HTTP verbs (GET, POST, PUT and DELETE)
+A CRUD system with database persistence using SpringBoot, REST API architecture and the main HTTP verbs (GET, POST, PUT and DELETE)
 
 #### RequestMethod.POST
 ![image](https://user-images.githubusercontent.com/56695817/167724307-cda70bba-3c89-4a29-b2a6-a357b83074d4.png)
